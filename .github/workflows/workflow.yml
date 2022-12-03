@@ -13,3 +13,7 @@ jobs:
       - run: make setup
       - run: make test
       - run: make lint
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ 415b4f65-e8f1-4b43-9bd5-d6743d33f9ef }}
