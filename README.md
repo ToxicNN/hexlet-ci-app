@@ -1,12 +1,14 @@
+[![test](https://github.com/ToxicNN/hexlet-ci-app/actions/workflows/workflow.yml/badge.svg)](https://github.com/ToxicNN/hexlet-ci-app/actions/workflows/workflow.yml)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
 
-* NodeJS >= 18
-* NPM >= 6.x
-* Make
+- NodeJS >= 18
+- NPM >= 6.x
+- Make
 
 ## Using
 
